@@ -1,6 +1,6 @@
 <?php
 include 'connection.php';
-
+$test = '';
 if($_POST)
 {
     $firstname    = mysql_real_escape_string($_POST['firstname']);
